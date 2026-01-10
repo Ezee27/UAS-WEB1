@@ -12,7 +12,6 @@ Dosen: Agung Nugroho, S.Kom., M.Kom.
 
 ---
 
-```md
 # 🐦 Toko Burung Jaya
 
 **Toko Burung Jaya** adalah aplikasi web penjualan burung berbasis **PHP Native** yang menerapkan konsep **MVC (Model – View – Controller)**.  
