@@ -1,17 +1,15 @@
-Siap. Berikut **README GitHub versi ulang yang LENGKAP, RAPI, FORMAL, TANPA EMOJI**, dan **sudah mencakup penjelasan fitur + potongan kode + tempat screenshot**.
-**Bagian identitas & nama tetap sama, tidak diubah.**
-
-Silakan copy seluruh isi ini ke file `README.md`.
+## UAS MEMBUAT WEBSITE TENTANG TOKO BURUNG JAYA
 
 ---
-
-## UAS
 
 **Mata Kuliah:** Pemrograman Web 1
 
 **Nama:** Zaenal Maulana Rizki
+
 **NIM:** 312410332
+
 **Kelas:** TI.2A.A.4
+
 **Dosen:** Agung Nugroho, S.Kom., M.Kom.
 
 ---
@@ -29,7 +27,6 @@ Project ini dibuat sebagai bagian dari Ujian Akhir Semester (UAS) mata kuliah Pe
 
 * PHP Native
 * MySQL
-* HTML
 * CSS
 * Apache Web Server
 * MVC Architecture
@@ -42,49 +39,40 @@ Project ini dibuat sebagai bagian dari Ujian Akhir Semester (UAS) mata kuliah Pe
 Struktur folder berikut disesuaikan dengan isi file ZIP project:
 
 ```
-toko-burung-jaya/
-│
-├── .htaccess
+TOKO-BURUNG-JAYA/
 │
 ├── app/
-│   ├── controllers/
-│   │   ├── AdminController.php
-│   │   ├── AuthController.php
-│   │   ├── BurungController.php
-│   │   ├── PemesananController.php
-│   │   └── UserController.php
 │   │
-│   ├── models/
-│   │   ├── Burung.php
-│   │   ├── Transaksi.php
-│   │   └── User.php
+│   ├── views/
+│   │   └── user/
+│   │       ├── beli.php
+│   │       ├── dashboard.php
+│   │       ├── history.php
+│   │       ├── katalog.php
+│   │       └── pemesanan.php
 │   │
-│   └── views/
-│       ├── admin/
-│       │   ├── dashboard.php
-│       │   ├── pembelian.php
-│       │   ├── pemesanan.php
-│       │   └── user.php
-│       │
-│       ├── auth/
-│       │   ├── login.php
-│       │   └── register.php
-│       │
-│       └── user/
-│           ├── beranda.php
-│           ├── detail_burung.php
-│           ├── pemesanan.php
-│           └── transaksi.php
+│   └── core/
+│       ├── Controller.php
+│       ├── Database.php
+│       └── Router.php
 │
-├── assets/
-│   └── css/
-│       └── style.css
+├── public/
+│   │
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   │
+│   │   └── images/
+│   │       └── elang.jpg
+│   │
+│   ├── uploads/
+│   │   └── burung/
+│   │
+│   └── index.php
 │
-├── upload/
-│   └── (file gambar burung)
-│
-└── public/
-    └── index.php
+├── .htaccess
+└── database.sql
+
 ```
 
 ---
