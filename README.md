@@ -228,7 +228,7 @@ Data pemesanan akan disimpan ke database dan diproses oleh admin.
 
 Halaman transaksi menampilkan riwayat pembelian yang telah dilakukan oleh pengguna.
 
-### Screenshot Halaman Transaksi
+### Screenshot Halaman History
 
 ---
 <img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/08de754e-80b3-4b80-aff1-e7cab5fd65e5" />
@@ -250,28 +250,139 @@ Dashboard admin digunakan untuk mengelola data sistem seperti data burung, pengg
 
 ### Screenshot Dashboard Admin
 
-```
-![Dashboard Admin](screenshots/admin-dashboard.png)
-```
+---
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/abdd2440-4781-4024-a309-daa84ff28e30" />
 
 ---
 
-## Manajemen Data Burung (Admin)
+---
+
+## Data Burung (Admin)
 
 ### File Terkait
 
 * Controller: `app/controllers/BurungController.php`
-* View: `app/views/admin/`
+* View: `app/views/admin/burung.php`
 
 ### Penjelasan
 
-Admin dapat melakukan tambah, ubah, dan hapus data burung serta mengunggah gambar burung.
+Halaman data burung digunakan admin untuk melihat seluruh daftar burung yang tersedia di sistem.
+Informasi yang ditampilkan meliputi nama burung, harga, stok, dan gambar.
+Dari halaman ini, admin dapat menuju ke fitur tambah dan edit data burung.
 
-### Screenshot Manajemen Burung
+### Screenshot Halaman Data Burung
 
-```
-![Manajemen Burung](screenshots/admin-burung.png)
-```
+---
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/1549dc6e-c6ea-4f61-bb55-a1d2e2322485" />
+
+---
+
+---
+
+## Tambah Data Burung (Admin)
+
+### File Terkait
+
+* Controller: `app/controllers/BurungController.php`
+* View: `app/views/admin/tambah.php`
+
+### Penjelasan
+
+Halaman tambah burung digunakan admin untuk menambahkan data burung baru ke dalam sistem.
+Admin mengisi form berupa nama burung, harga, stok, deskripsi, serta mengunggah gambar burung.
+Data yang berhasil disimpan akan langsung masuk ke database.
+
+### Screenshot Halaman Tambah Burung
+
+---
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/368ab0d5-616e-4cfa-b42f-0d828d3fda21" />
+
+---
+
+---
+
+## Edit Data Burung (Admin)
+
+### File Terkait
+
+* Controller: `app/controllers/BurungController.php`
+* View: `app/views/admin/edit.php`
+
+### Penjelasan
+
+Halaman edit burung digunakan admin untuk memperbarui data burung yang sudah ada.
+Admin dapat mengubah nama burung, harga, stok, serta mengganti gambar burung jika diperlukan.
+
+### Screenshot Halaman Edit Burung
+
+---
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/642144f0-c476-43cb-9bc6-d64fb9a6c566" />
+
+---
+
+---
+
+## Data Pembelian (Admin)
+
+### File Terkait
+
+* Controller: `app/controllers/AdminController.php`
+* View: `app/views/admin/pembelian.php`
+
+### Penjelasan
+
+Halaman pembelian menampilkan data transaksi pembelian yang telah dilakukan oleh pengguna.
+Admin dapat melihat detail pembelian seperti nama user, burung yang dibeli, jumlah, dan total pembayaran.
+
+### Screenshot Halaman Pembelian
+
+---
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/a05a4d36-8ae6-47ce-8d0c-5e67724b1b73" />
+
+---
+
+---
+
+## Data Pemesanan (Admin)
+
+### File Terkait
+
+* Controller: `app/controllers/PemesananController.php`
+* View: `app/views/admin/pemesanan.php`
+
+### Penjelasan
+
+Halaman pemesanan digunakan admin untuk memantau pesanan yang masuk dari pengguna.
+Admin dapat melihat data pesanan serta status pemesanan yang sedang diproses.
+
+### Screenshot Halaman Pemesanan
+
+---
+
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/4c89fdd5-e06f-4fe4-82b8-6987306c496d" />
+
+---
+
+---
+
+## Data Admin dan User
+
+### File Terkait
+
+* Controller: `app/controllers/UserController.php`
+* View: `app/views/admin/user.php`
+
+### Penjelasan
+
+Halaman ini digunakan admin untuk melihat data akun yang terdaftar di dalam sistem, baik admin maupun user.
+Informasi yang ditampilkan digunakan untuk pengawasan dan manajemen pengguna.
+
+### Screenshot Halaman Data Admin dan User
+
+---
+<img width="1908" height="1022" alt="image" src="https://github.com/user-attachments/assets/ec97badf-4ff8-424b-82e8-9839f322423a" />
+
+---
 
 ---
 
@@ -335,7 +446,7 @@ htdocs/
 
 2. Pastikan tidak ada folder ganda
 3. Atur BASE_URL pada file `public/index.php`
-4. Atur permission folder `upload/` menjadi 755 atau 777
+4. Atur permission folder `upload/`
 
 ---
 
