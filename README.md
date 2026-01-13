@@ -196,23 +196,4 @@ RewriteRule ^(.*)$ public/index.php?url=$1 [QSA,L]
   ```
   upload/
   ```
-* Digunakan untuk menyimpan gambar burung
-
 ---
-
-## ⚠️ Catatan Penting
-
-* Jangan gunakan `localhost` saat sudah di-hosting
-* File `index.php` utama **ADA di folder `public`**
-* Jangan hapus `.htaccess`
-* InfinityFree **case-sensitive**
-
----
-
-## 👨‍💻 Author
-
-**Toko Burung Jaya**
-Project PHP Native MVC
-Untuk keperluan pembelajaran & tugas perkuliahan
-
-```
