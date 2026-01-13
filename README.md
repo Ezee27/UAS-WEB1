@@ -130,15 +130,10 @@ public function login()
 
 ### Screenshot Halaman Login
 
-```
-![Halaman Login](screenshots/login.png)
-```
+---
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/a1a8b0c2-b0c2-4afa-97f3-595a2caa26eb" />
 
-### Screenshot Halaman Register
-
-```
-![Halaman Register](screenshots/register.png)
-```
+---
 
 ---
 
@@ -154,28 +149,51 @@ Halaman beranda menampilkan daftar burung yang tersedia lengkap dengan gambar, h
 
 ### Screenshot Beranda User
 
-```
-![Beranda User](screenshots/beranda.png)
-```
+---
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/267fd35f-d1e7-4060-be06-17ef52610611" />
 
 ---
 
-## Detail Data Burung
+---
+
+## Katalog
 
 ### File Terkait
 
 * Controller: `app/controllers/BurungController.php`
-* View: `app/views/user/detail_burung.php`
+* View: `app/views/user/katalog.php`
 
 ### Penjelasan
 
-Halaman detail burung menampilkan informasi lengkap burung seperti nama, harga, stok, deskripsi, serta gambar burung.
+Halaman katalog menampilkan informasi lengkap burung seperti nama, harga, stok, deskripsi, serta gambar burung.
 
 ### Screenshot Detail Burung
 
-```
-![Detail Burung](screenshots/detail-burung.png)
-```
+---
+<img width="1912" height="1027" alt="image" src="https://github.com/user-attachments/assets/60e73e52-8a3c-4815-a9e8-4c2a3a03494f" />
+
+---
+
+---
+
+## Beli
+
+### File Terkait
+
+* Controller: `app/controllers/PemesananController.php`
+* View: `app/views/user/beli.php`
+
+### Penjelasan
+
+Pengguna dapat melakukan pemesanan burung dengan menentukan jumlah pembelian.
+Data pemesanan akan disimpan ke database dan diproses oleh admin.
+
+### Screenshot Halaman beli
+
+---
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/3e9f9d85-88a4-4c9a-92db-846259bfda7f" />
+
+---
 
 ---
 
@@ -193,18 +211,18 @@ Data pemesanan akan disimpan ke database dan diproses oleh admin.
 
 ### Screenshot Halaman Pemesanan
 
-```
-![Pemesanan](screenshots/pemesanan.png)
-```
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/a57126be-e58f-48d3-a909-1670845fb3fb" />
 
 ---
 
-## Transaksi Pengguna
+---
+
+## History User
 
 ### File Terkait
 
-* Model: `app/models/Transaksi.php`
-* View: `app/views/user/transaksi.php`
+* Model: `app/models/Pemesanan.php`
+* View: `app/views/user/history.php`
 
 ### Penjelasan
 
@@ -212,9 +230,10 @@ Halaman transaksi menampilkan riwayat pembelian yang telah dilakukan oleh penggu
 
 ### Screenshot Halaman Transaksi
 
-```
-![Transaksi User](screenshots/transaksi.png)
-```
+---
+<img width="1917" height="1018" alt="image" src="https://github.com/user-attachments/assets/08de754e-80b3-4b80-aff1-e7cab5fd65e5" />
+
+---
 
 ---
 
